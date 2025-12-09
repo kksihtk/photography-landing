@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Street Photographer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+        .header-bg {
+            background-image: url(https://digital.ihg.com/is/image/ihg/intercontinental-almaty-9686284506-16x5);
+            background-size: cover;
+            height: 260px;
+        }
+        .card-main {
+            margin-top: -150px;
+            border-radius: 15px;
+        }
+        .social-card {
+            cursor: pointer;
+        }
+        .placeholder-img {
+            width: 50px;
+            height: 50px;
+            background: #e0e0e0;
+            border-radius: 10px;
+        }
+        @media (max-width: 576px) {
+            .card-main {
+                margin-top: -120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bg w-100"></div>
+
+    <div class="container">
+         <div class="card shadow card-main p-4">
+
+            <div class="d-flex justify-content-center">
+                <img src="./KKSIHTKK Logo.png" 
+                    alt="Avatar"
+                    class="rounded-circle shadow-sm"
+                    style="width: 120px; height: 120px; object-fit: cover; margin-top: 0px;">
+            </div>
+
+            <!-- <h3 class="text-center mt-3 fw-semibold">KKSIHTK</h3> -->
+
+            <h2 class="text-center fw-bold mt-2">Street photographer</h2>
+            <p class="text-center text-muted mb-3">Portraits, architecture, lifestyle</p>
+
+            <div class="d-flex justify-content-center">
+                <a href="https://t.me/kksihtkk" class="btn btn-dark px-4 py-2">Book a photoshoot</a>
+            </div>
+        </div>
+        <div class="card shadow p-4 mt-4">
+            <h4 class="mt-4">My Socials</h4>
+
+            <div class="card p-3 mt-3 social-card d-flex flex-row align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="placeholder-img" style="background-image: url(https://qr-generator.ai/themes/altum/assets/images/socialicon/icon20.svg); background-size: cover;"></div>
+                    <span class="fw-semibold">Instagram</span>
+                </div>
+                <span class="fs-4">›</span>
+            </div>
+
+            <div class="card p-3 mt-3 social-card d-flex flex-row align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="placeholder-img" style="background-image: url(https://qr-generator.ai/themes/altum/assets/images/socialicon/icon23.svg); background-size: cover; border-radius: 100px;"></div>
+                    <span class="fw-semibold">Telegram</span>
+                </div>
+                <span class="fs-4">›</span>
+            </div>
+
+            <div class="card p-3 mt-3 social-card d-flex flex-row align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="placeholder-img" style="background-image: url(https://qr-generator.ai/themes/altum/assets/images/socialicon/icon21.svg); background-size: cover; border-radius: 100px;"></div>
+                    <span class="fw-semibold" >TikTok</span>
+                </div>
+                <span class="fs-4">›</span>
+            </div>
+        </div>
+        <div class="card shadow p-4 mt-4 text-center">
+            <h4 class="mt-4">About</h4>
+            <p class="text-center text-muted mt-2">
+                My name is Ali, and I’ve been doing photography for three years: two years on a phone and one year with a camera.
+                I specialize in street photography. Your portraits will feel genuine, capturing the mood and atmosphere of the big city.<br><br>
+                I have experience shooting major events such as GeekTime Fest, Almacon, and Turan University Dedication 2025.
+            </p>
+        </div>
+        <footer class="p-5 justify-content-center d-flex text-muted">
+            KKSIHTK All rights reserved © 2025
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
